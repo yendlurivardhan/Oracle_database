@@ -1,0 +1,26 @@
+cells:
+  - kind: 2
+    value: "CREATE TABLE Orders (\r
+
+      \    Order_ID NUMBER PRIMARY KEY,\r
+
+      \    Order_Date DATE,\r
+
+      \    Customer_ID VARCHAR2(10),\r
+
+      \    Customer_Name VARCHAR2(100),\r
+
+      \    Product_Category VARCHAR2(100),\r
+
+      \    Product_Name VARCHAR2(150),\r
+
+      \    Quantity NUMBER,\r
+
+      \    Unit_Price NUMBER(10,2),\r
+
+      \    Payment_Mode VARCHAR2(50),\r
+
+      \    Store_Location VARCHAR2(100)\r
+
+      );"
+    languageId: oracle-sql
